@@ -1,42 +1,34 @@
-# Portfolio Website - Personal & Elegant (2 Halaman)
+# Portfolio Website - Personal & Elegant (Vasari VHS Hero Edition)
 
-Website portofolio minimalis, modern, dan sinematik dengan video Cristiano Ronaldo sebagai background transparan elegan.
+Website portofolio minimalis, modern, dan sinematik dengan pemisahan video background Ronaldo pada masing-masing halaman dan **gerakan kaset 3D interaktif ala MotionSites Vasari VHS Hero** di halaman karya.
 
-## 📁 Struktur File & Halaman
+## 📁 Struktur File & Video Background
 ```
 porto volio/
-├── index.html            # Halaman 1: Profil Pribadi & Tech Stack Pembelajaran
-├── projects.html         # Halaman 2: Showcase Karya Web Interaktif (MotionSites Vasari Style)
-├── README.md             # Petunjuk penggunaan
+├── index.html            # Halaman utama (Halaman 1 & Halaman 2 Terintegrasi)
+├── README.md             # Panduan penggunaan
 └── assets/
     ├── profile.jpg       # Foto profil resmi Hammad
-    ├── ronaldo_main.mp4  # Video Ronaldo Utama (Clip 1)
-    ├── ronaldo_bg1.mp4   # Video Ronaldo Alternatif (Clip 2)
-    ├── ronaldo_bg2.mp4   # Video Ronaldo Alternatif (Clip 3)
-    └── projects/         # Foto karya-karya web kamu
+    ├── ronaldo_main.mp4  # Video Background KHUSUS Halaman 1 (Profil & Skill)
+    ├── ronaldo_page2.mp4 # Video Background KHUSUS Halaman 2 (Kaset VHS - WhatsApp Video 07.47.44)
+    └── projects/         # Tangkapan layar karya web kamu
         ├── jarvis.png              # 01. J.A.R.V.I.S Virtual Assistant
         ├── gorio_finance.png       # 02. Gorio Grio Es - Finance System (Netlify)
         ├── discipline_tracker.jpg  # 03. SIUUU Discipline Weekly Tracker
         └── hermes_agent.jpg        # 04. Hermes-Agent Concept
 ```
 
-## ✨ Fitur Halaman 1 (`index.html`)
-- **Hero Profile**: Foto profil berjas dengan frame elegan & status *Active Learning*.
-- **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript, PHP.
-- **Glassmorphism Samar**: Semua kotak dibuat semi-transparan sehingga video Ronaldo di belakang tampak hidup & jelas.
-- **Tulisan Tajam**: Dilengkapi multi-layer *crisp text shadow* agar tulisan selalu terbaca sempurna.
-- **Tombol Langsung ke Halaman 2**: Tombol emas *"Lihat Karya Web (Halaman 2)"*.
+## ✨ Fitur-Fitur:
+1. **Background Video Terpisah Antara Halaman 1 & Halaman 2**:
+   - **Halaman 1 (Profil & Skill)**: Menggunakan video Ronaldo utama (`assets/ronaldo_main.mp4`).
+   - **Halaman 2 (Karya VHS)**: Otomatis bertransisi ke video Ronaldo pilihanmu (`assets/ronaldo_page2.mp4` dari `WhatsApp Video 2026-11-02 at 07.47.44.mp4`).
+   - Transisi video berpindah secara otomatis (*smooth cross-fade*) saat kamu melakukan *scroll* ke Halaman 2 atau kembali ke Halaman 1.
+2. **Halaman Kedua: MotionSites Vasari VHS Hero 3D Shelf**:
+   - Rak kaset 3D berjejer dengan animasi tarik & putar kaset (*pull-out & spin outward*).
+   - Seluruh foto karya tampil penuh, tajam, dan tidak terpotong.
+   - Tab pemilih kaset vintage di atas + teks editorial kanji slide mask di bawah + 4 foto thumbnail gallery.
+3. **Multi-Input**:
+   - Klik langsung kaset mana saja, tombol panah ⬅️ ➡️ di keyboard, tombol layar, atau swipe di HP.
 
-## ✨ Fitur Halaman 2 (`projects.html`)
-- **Motion Carousel Showcase**:
-  - Tampilan browser mockup modern dengan preview gambar karya resolusi tinggi.
-  - **Sistem Geser (Slider)**: Tombol Next/Prev, tombol panah keyboard (⬅️ ➡️), dan klik thumbnail di bawah.
-  - **Informasi Lengkap**: Kategori, Judul, Deskripsi, dan Badge Teknologi untuk tiap karya.
-  - **Fitur Lightbox**: Klik pada gambar untuk memperbesar ke ukuran penuh (*full-screen view*).
-  - **Link Langsung**: Tombol untuk mengunjungi live website (seperti project Netlify kamu).
-- **Background Ronaldo Sinematik**: Latar video tetap konsisten, transparan, dan tidak menghalangi pemandangan.
-- **Kontrol Video di Navbar**: Switch antar 3 klip video Ronaldo, atur suara (*mute/unmute*), dan atur kecerahan layar.
-
-## 🚀 Cara Membuka
-- Buka `index.html` untuk melihat halaman depan (Profil & Skill).
-- Buka `projects.html` atau klik tombol navigasi di atas/bawah untuk melihat showcase karya web.
+## 🚀 Cara Menjalankan
+Buka [index.html](file:///c:/Users/hamma/OneDrive/Desktop/porto%20volio/index.html) di browser favoritmu (Google Chrome, Microsoft Edge, dll).
